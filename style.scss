@@ -9,6 +9,23 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+@font-face {
+    font-family: neutraTitling;
+    src: url(fonts/NeutraDisplayTitling.ttf);
+}
+
+@font-face {
+    font-family: neutraTextLight;
+    src: url(fonts/NeutraText-LightAlt.ttf);
+}
+
+header { text-align: center; font-family: "neutraTitling"; font-size: 3em; }
+nav { text-align: center; }
+nav ul { list-style-type: none; font-family: "neutraTextLight"; font-size: 1.2em; }
+nav ul li { display: inline; }
+nav ul li a { color: #AA3245; text-decoration: none; }
+nav ul li a:hover, nav ul li a.active { text-decoration: underline; }
+
 /**************/
 /* BASE RULES */
 /**************/
