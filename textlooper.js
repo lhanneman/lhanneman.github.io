@@ -1,5 +1,12 @@
 (function () {
-    var jobTitles = [".net developer", "javascripter", "consultant", "custom-typewriter-text implementer", "are you still reading these?"];
+    var jobTitles = [
+        ".net developer",
+        "javascripter",
+        "consultant",
+        "custom-typewriter-text implementer",
+        "are you still reading these?",
+        "check out the cool stuff below!"
+    ];
     var el = document.getElementsByClassName('job-titles')[0];
     var titleIndex = 0;
     var letterIndex = 0;
