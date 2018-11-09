@@ -32,12 +32,6 @@ header {
     padding: 10px 0;
 }
 
-#footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-}
-
 a {
     text-decoration: none;
     margin: 0 15px;
@@ -66,16 +60,16 @@ a:hover {
     }
 }
 
-.my-work {
+section {
     margin-top: 50px;
 }
-
-.my-work ul {
+ 
+section ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.my-work ul li {
+section ul li {
     padding: 10px 0;
 }
