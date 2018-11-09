@@ -1,57 +1,7 @@
 <html>
 
 <head>
-	<style>
-		body {
-			margin: 0;
-			background-color: #272822;
-			font-family: monospace;
-			color: #fff;
-			text-align: center;
-		}
-
-		header {
-			margin: 20px 0;
-			
-		}
-
-		.crop {
-			max-width: 200px;
-			height: auto;
-			position: relative;
-			overflow: hidden;
-			display: inline-block;
-		}
-
-		.crop .image {
-			height: 200px;
-			width: 200px;
-			-webkit-border-radius: 50%;
-			-moz-border-radius: 50%;
-			-ms-border-radius: 50%;
-			-o-border-radius: 50%;
-			border-radius: 50%;
-			background: url("images/copypaste.jpg") center no-repeat;
-			background-size: contain;
-		}
-
-		#footer {
-			position: absolute;
-			bottom: 10px;
-			width: 100%;
-		}
-
-		a {
-			text-decoration: none;
-			color: #fff;
-			margin: 0 15px;
-		}
-
-		a:hover {
-			text-decoration: underline;
-		}
-
-	</style>
+	<link rel="stylesheet" href="site.css" />
 </head>
 
 <body>
@@ -60,15 +10,34 @@
 			<div class="image"></div>
 		</div>
 	</header>
-	<div id="main">
-		<div class="me">lloyd hanneman - software developer</div>
+	<div>
+		<div>lloyd hanneman</div>
+		<div class="text-looper">
+			<span class="job-titles"></span>
+		</div>
 	</div>
+	<div class="my-work">
+		<div>things i've worked on</div>
+		<ul>
+			<li><a href="https://inkalleyshirts.com/">ink alley shirts</a></li>
+			<li><a href="https://rosenowlandscapes.com/">rosenow landscapes</a></li>
+		</ul>
+	</div>
+	<div class="my-work">
+			<div>misc</div>
+			<ul>
+				<li><a href="https://github.com/lhanneman/digital-bookshelf">digital bookshelf</a></li>
+				<li><a href="https://github.com/lhanneman/golftalk">golf talk</a></li>
+			</ul>
+		</div>
 	<div id="footer">
 		<span>find me -></span>
 		<a href="https://github.com/lhanneman">github</a>
 		<a href="https://www.linkedin.com/in/lloyd-hanneman-57a73052/">linked in</a>
 		<a href="https://twitter.com/lhann3man">twitter</a>
 	</div>
+
+	<script src="textlooper.js"></script>
 </body>
 
 </html>

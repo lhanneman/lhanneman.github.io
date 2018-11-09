@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    text-align: center;
+}
+
+header {
+    margin: 20px 0;
+}
+
+.crop {
+    max-width: 200px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.crop .image {
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: url("images/copypaste.jpg") center no-repeat;
+    background-size: contain;
+}
+
+.text-looper {
+    padding: 10px 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.job-titles:after {
+    content: '|';
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.my-work {
+    margin-top: 50px;
+}
+
+.my-work ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.my-work ul li {
+    padding: 10px 0;
+}
